@@ -1,0 +1,55 @@
+.lista-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lista-encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-texto);
+}
+
+.lista-tareas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lista-vacia {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: var(--color-blanco);
+  border: 2px dashed var(--color-borde);
+  border-radius: var(--radio-borde);
+}
+
+.lista-vacia-icono {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.lista-vacia-mensaje {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  margin-bottom: 4px;
+}
+
+.lista-vacia-sugerencia {
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+}
+
+.lista-resumen {
+  color: var(--color-texto-suave);
+  font-size: 0.88rem;
+  text-align: right;
+}
